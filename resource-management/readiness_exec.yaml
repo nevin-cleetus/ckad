@@ -9,13 +9,13 @@ spec:
   - name: readiness
     image: k8s.gcr.io/busybox
     args:
-   - /bin/sh
-    - -c
-    - touch /tmp/healthy; sleep 30; rm -rf /tmp/healthy; sleep 600
+      - /bin/sh
+      - -c
+      - touch /tmp/healthy; sleep 30; rm -rf /tmp/healthy; sleep 600
     readinessProbe:
       exec:
         command:
-       - cat
-        - /tmp/healthy
+          - cat
+          - /tmp/healthy
       initialDelaySeconds: 5
       periodSeconds: 5

@@ -9,7 +9,7 @@ spec:
   - name: readiness
     image: k8s.gcr.io/liveness
     args:
-   - /server
+      - /server
     readinessProbe:
       httpGet:
         path: /healthz
