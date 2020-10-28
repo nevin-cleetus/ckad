@@ -6,9 +6,12 @@ const port = '8080';
 
 http.createServer(function (request, response) {
 
-   var hostname = os.hostname();   
+   var hostname = os.hostname();  
+   var i;  
+   setTimeout(() => { i =10; }, 2000); 
    response.writeHead(200, {'Content-Type': 'text/plain'});   
-   response.end(`Hello from ${os.hostname()}\n`);
+   response.end(`Hello from version:2 ${os.hostname()}\n`);
+
    
 }).listen(port);
 
