@@ -1,0 +1,6 @@
+com/yourbank/mortgage/model/MortgageEnquiry.class
+com/yourbank/mortgage/repository/MortgageEnquiryRepository.class
+com/yourbank/mortgage/service/MortgageEnquiryService.class
+com/yourbank/mortgage/service/impl/MortgageEnquiryServiceImpl.class
+com/yourbank/mortgage/MortgageRequestProcessorApplication.class
+com/yourbank/mortgage/controller/MortgageRequestProcessorController.class

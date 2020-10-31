@@ -4,13 +4,12 @@ USE yourbank;
 
 
 CREATE TABLE `mortgage_enquiry` (
-  `first_name` varchar(150) NOT NULL,
-  `last_name` varchar(150) DEFAULT NULL,
+  `id` int(11) NOT NULL,
+  `customer_name` varchar(150) NOT NULL,
+  `ssn` varchar(100) DEFAULT NULL,
+  `mobile_number` varchar(100) DEFAULT NULL,
   `email` varchar(100) DEFAULT NULL,
-  `phone` varchar(100) DEFAULT NULL,
-  `status` CHAR(1) NOT NULL     
+  `loan_amount` varchar(150) DEFAULT NULL,
+  `status` CHAR(1) NOT NULL
 );
-
-
-
 

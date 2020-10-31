@@ -1,0 +1,6 @@
+/home/vagrant/gitrepo/loanprocessapp/src/main/java/com/yourbank/mortgage/MortgageRequestProcessorApplication.java
+/home/vagrant/gitrepo/loanprocessapp/src/main/java/com/yourbank/mortgage/model/MortgageEnquiry.java
+/home/vagrant/gitrepo/loanprocessapp/src/main/java/com/yourbank/mortgage/service/MortgageEnquiryService.java
+/home/vagrant/gitrepo/loanprocessapp/src/main/java/com/yourbank/mortgage/service/impl/MortgageEnquiryServiceImpl.java
+/home/vagrant/gitrepo/loanprocessapp/src/main/java/com/yourbank/mortgage/repository/MortgageEnquiryRepository.java
+/home/vagrant/gitrepo/loanprocessapp/src/main/java/com/yourbank/mortgage/controller/MortgageRequestProcessorController.java
